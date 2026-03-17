@@ -1,7 +1,8 @@
-# Pin to 8.x; ES 9 client sends compatible-with=9 and ES 8 server rejects it
 elasticsearch
 qdrant-client
 pypdf
 python-dotenv
 openai
 pytest
+streamlit
+ragas
