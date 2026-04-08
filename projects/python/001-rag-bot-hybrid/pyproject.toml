@@ -1,0 +1,17 @@
+[project]
+name = "rag-bot-hybrid"
+version = "0.1.0"
+description = "Hybrid search POC: ingest PDFs to Elasticsearch and Qdrant with OpenAI embeddings"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "elasticsearch>=8.0,<9",
+    "qdrant-client>=1.7,<2",
+    "pypdf>=4.0,<5",
+    "python-dotenv>=1.0,<2",
+    "openai>=1.0,<2",
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

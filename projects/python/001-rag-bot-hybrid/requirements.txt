@@ -1,0 +1,8 @@
+elasticsearch
+qdrant-client
+pypdf
+python-dotenv
+openai
+pytest
+streamlit
+ragas
